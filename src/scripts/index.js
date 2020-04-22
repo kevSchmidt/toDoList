@@ -8,8 +8,8 @@ function colorGenerator() {
 const add = () => {
   let userInput = document.querySelector(".user-input").value;
   let newItem = document.createElement("li");
-  let textLine = document.createTextNode(userInput);
-  newItem.appendChild(textLine);
+  let newText = document.createTextNode(userInput);
+  newItem.appendChild(newText);
   document.querySelector(".list-item").appendChild(newItem);
   document.querySelector(".user-input").value = "";
 
