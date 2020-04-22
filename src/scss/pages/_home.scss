@@ -1,0 +1,46 @@
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.input-div .user-input {
+  padding: 0.5rem 1rem;
+  outline: none;
+  height: 3rem;
+  width: 28rem;
+  font-size: 1.15rem;
+  margin: 0.25rem;
+  border: none;
+  border-radius: 16px 0 16px 0;
+  border-bottom: 5px solid lime;
+}
+
+.btn {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  margin: 0.25rem;
+  background-color: lime;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.list-item {
+  width: 35rem;
+  font-size: 1.5rem;
+}
