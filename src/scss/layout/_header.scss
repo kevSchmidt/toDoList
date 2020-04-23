@@ -10,3 +10,12 @@ h1 {
   font-weight: 700;
   color: lime;
 }
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+    margin: 1rem 3rem 0 3rem;
+  }
+  .heading-style {
+    font-size: 5rem;
+  }
+}
