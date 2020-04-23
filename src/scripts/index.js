@@ -38,7 +38,7 @@ const add = () => {
   });
 
   span.addEventListener("click", () => {
-    newItem.style.display = "none";
+    newItem.remove();
   });
 };
 
