@@ -8,7 +8,7 @@ function colorGenerator() {
 const add = () => {
   let userInput = document.querySelector(".user-input").value;
   if (userInput == "") {
-    return alert("Please enter something");
+    return alert("Please enter something...");
   }
 
   let newItem = document.createElement("li");
@@ -41,3 +41,10 @@ const add = () => {
     newItem.style.display = "none";
   });
 };
+
+document.addEventListener("keypress", (event) => {
+  //check if the user pressed the return key (enter)
+  if (event.keyCode === 13) {
+    add();
+  }
+});
