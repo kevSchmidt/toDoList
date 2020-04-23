@@ -7,6 +7,10 @@ function colorGenerator() {
 
 const add = () => {
   let userInput = document.querySelector(".user-input").value;
+  if (userInput == "") {
+    return alert("Please enter something");
+  }
+
   let newItem = document.createElement("li");
   let newText = document.createTextNode(userInput);
   newItem.appendChild(newText);
