@@ -32,5 +32,8 @@ const add = () => {
   list.forEach((item) => {
     item.appendChild(span);
   });
+
+  span.addEventListener("click", () => {
+    newItem.style.display = "none";
+  });
 };
-// on click display:none
