@@ -56,8 +56,8 @@ li {
   transition: all 0.3s;
 
   &:hover {
-    transform: translateX(-0.5rem);
-    color: #ff2600;
+    transform: translateX(-0.7rem) scale(1);
+
     cursor: pointer;
   }
 }
