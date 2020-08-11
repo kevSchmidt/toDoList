@@ -18,5 +18,5 @@ Create a ToDo list with html, javascript, sass and make it responsive.
 ### Features:
 - Color Generator function using javascript.
 - All items have a different & random color.
-- On click items are marks as done.
+- On click items are marked.
 
